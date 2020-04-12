@@ -107,6 +107,6 @@ body, html{
 
 @media(max-height:500px) and (orientation:landscape){
      .intro{
-         margin-top:30vh
+         margin-top:10vh
      }
 }
