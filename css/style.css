@@ -1,0 +1,106 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+    height: 100%;
+}
+
+.hero{
+    background-image: url(../img/tech.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#mobile-demo{
+    background-color: rgba(25,25,25,0.5);
+    height: fit-content;
+    width: fit-content;
+}
+#mobile-demo li a{
+    color: white;
+}
+
+.intro{
+    margin-top: 35vh;
+}
+
+.intro i{
+    padding: 20px;
+}
+
+.about{
+    background-color: rgb(32,32,32);
+    height: fit-content;
+}
+
+.about img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.hr{
+    width: 20%;
+    border-color: #795548;
+}
+.skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/old.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+}
+
+.blog{
+    background-color: rgb(32,32,32);
+    height: fit-content;
+}
+
+.contact{
+    background-image: url(../img/smartphone.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+    padding-top: 50px ;
+    padding-bottom: 30px;
+}
+#location_footer, #email_footer{
+    font-weight: normal;
+    font-size: smaller;
+}
+#footer_notes{
+    padding-bottom: 10px;
+}
+
+@media(min-width:710px){
+    .about{
+        columns: 2;
+    }
+    .about h5{
+        padding-top: 100px;
+    }
+}
+
+.skills i{
+    color: #4d362e;
+}
+
+@media(min-width:600px){
+    .blog_img{
+        height: 320px;
+    }
+}
+@media(min-width:800px){
+    .blog_img{
+        height: 420px;
+    }
+}
+@media(min-width:1000px){
+    .blog_img{
+        height: 520px;
+    }
+}

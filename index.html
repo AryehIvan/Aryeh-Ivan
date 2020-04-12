@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Aryeh Ivan</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="scrollspy hero" id="home">
+
+        <nav class="transparent z-depth-0">     
+            <div class="nav-wrapper">             
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right show-on-large"><i class="fas fa-bars"></i></a>           
+            </div>   
+        </nav> 
+ 
+        <ul class="sidenav" id="mobile-demo"> 
+            <li><a href="#home">Home</a></li>    
+            <li><a href="#about">About</a></li>     
+            <li><a href="#skills">Skills</a></li>     
+            <li><a href="#blog">Blog</a></li>     
+            <li><a href="#contact">Contact</a></li>   
+        </ul>   
+
+        <div class="intro center white-text">
+            <h4 id="naming"></h4>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section class="scrollspy about" id="about">
+            <img src="img/me.webp" height="250px">
+            <h5 class="white-text center">I Am A Software Engineer</h5>
+            <hr class="hr">
+            <p class="white-text center">I am <strong>Aryeh Ivan</strong>,A software engineer based in Johannesburg, South Africa, with a keen interest in Mobile,IoT and Cloud Computing. My love for technology stems from my belief in tech's potential to empower human collaboration and improve society's quality of life.</p>
+        </section>
+    </div>
+
+        <div class="scrollspy skills" id="skills">
+            <div class="center"><i class="fas fa-graduation-cap center"></i></div>
+            <h6 class="white-text center">Education</h6>
+            <hr class="hr">
+            <p class="white-text center">University of Johannesburg</p>
+
+            <div class="center"><i class="fa fa-lightbulb-o"></i></div>
+            <h6 class="white-text center">Skills</h6>
+            <hr class="hr">
+            <ul>
+                <li class="white-text center">LAMP</li>
+                <li class="white-text center">MERN</li>
+                <li class="white-text center">Android</li>
+                <li class="white-text center">IOS</li>
+                <li class="white-text center"> Tensorflow Model Inference</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <section class="scrollspy blog" id="blog">
+                    
+                <div class="single-item">
+
+                    <div class="blog1">
+                        <a href="being-cyber-safe.html">
+                            <img src="img/security.webp" class="blog_img" height="200px" width="100%">
+                            <h6 class="grey-text text-lighten-1">Being Cyber-Safe</h6>
+                            <span class="grey-text">Increased online activity calls for increased online awareness</span>
+                            <hr class="brown-text">
+                            <a href="being-cyber-safe.html" class="brown-text">Read More</a>
+                            <span class="grey-text right">By: Aryeh Ivan</span>
+                        </a>
+                    </div>
+
+                    <div class="blog1">
+                        <a href="5-things-I-wish-I-knew-when-I-started-programming.html">
+                            <img src="img/code.webp" class="blog_img" height="200px" width="100%">
+                            <h6 class="grey-text text-ligten-1">5 Things I Wish I Knew When I Started Programming</h6>
+                            <span class="grey-text">Movie scenes may portray a real coding experience, do they really?</span>
+                            <hr class="brown-text">
+                            <a href="5-things-I-wish-I-knew-when-I-started-programming.html" class="brown-text">Read More</a>
+                            <span class="grey-text right">By: Aryeh Ivan</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        <div class="scrollspy contact" id="contact">
+            <h5 class="white-text center">Get In Touch</h5>
+            <hr class="hr">
+            
+            <div class="row">       
+                <form class="col s12"  method="POST" data-netlify="true">         
+                    <div class="row">           
+                        <div class="input-field col s12">
+                            <input id="firstName" class="white-text" type="text">             
+                            <label for="firstName">First Name</label> 
+                        </div>         
+                    </div> 
+
+                    <div class="row">           
+                        <div class="input-field col s12">
+                            <input id="lastName" class="white-text" type="text">             
+                            <label for="lastName">Last Name</label> 
+                        </div>         
+                    </div> 
+
+                    <div class="row">           
+                        <div class="input-field col s12">
+                            <input id="email" class="white-text" type="text">             
+                            <label for="email">Email</label> 
+                        </div>         
+                    </div> 
+
+                    <div class="row">           
+                        <div class="input-field col s12">             
+                            <textarea id="message" class="materialize-textarea white-text"></textarea>             
+                            <label for="message">Message</label>          
+                        </div>         
+                    </div>
+                    <button class="btn brown" type="submit">Message <i class="fa fa-send"></i></div>
+                    <i class="fa fa-map-pin brown-text"> <span class="grey-text center" id="location_footer">37 Bunting Rd, Cottesloe, Johannesburg, South Africa</span></i>
+                    <br>
+                    <i class="fa fa-envelope brown-text"></i> <span><a href="aryeh@aryehivan.com" class="grey-text center" id="email_footer">Aryeh@AryehIvan.com</a></span></i>
+                </form>
+               
+            <footer class="center-align">
+                <span class="grey-text"> Copyright <i class="fa fa-copyright grey-text">2020. Aryeh Ivan. All Rights Reserved.</i></span>
+            </footer>
+            </div>
+
+            
+            
+</body>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" async defer src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript"  src="js/init.js"></script>
+</html>
