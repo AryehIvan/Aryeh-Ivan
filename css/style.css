@@ -104,3 +104,9 @@ body, html{
         height: 520px;
     }
 }
+
+@media(max-height:500px) and (orientation:landscape){
+     .intro{
+         margin-top:30vh
+     }
+}
