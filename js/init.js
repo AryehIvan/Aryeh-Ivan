@@ -1,3 +1,18 @@
+let i = 0;
+let txt = 'Amal Levi';
+let speed = 200;
+function typeWriter(){
+    if(i < txt.length){
+        document.getElementById('naming').innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter,speed)
+    }
+}
+
+typeWriter();
+
+
+
 $(document).ready(function(){     
     $('.sidenav').sidenav(); 
     $('.single-item').slick({
@@ -27,16 +42,3 @@ function topFunction(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-let i = 0;
-let txt = 'Aryeh Ivan';
-let speed = 150;
-function typeWriter(){
-    if(i < txt.length){
-        document.getElementById('naming').innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter,speed)
-    }
-}
-
-typeWriter();
